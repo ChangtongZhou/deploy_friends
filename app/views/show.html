@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is show one page</title>
+</head>
+<body>
+    <div class="one_friend">
+        <p>First Name:{{one_friend['first_name']}}</p>
+        <p>Last Name:{{one_friend['last_name']}}</p>
+        <p>Occupation:{{one_friend['occupation']}}</p>
+        <p>Known for:{{one_friend['known_for']}}</p>
+    </div>
+    <a href="/friends/update/{{one_friend['id']}}"><button type="button">Edit</button></a>
+    <a href="/"><button type="button">Back</button> </a>
+</body>
+</html>
